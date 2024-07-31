@@ -1,0 +1,83 @@
+.card{
+  border: 1px solid rgb(149, 18, 175);
+  border-radius: 30 px;
+  box-shadow: 5px 5px 5px rgb(40, 11, 190, 0.7);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+ 
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: rgb(237, 245, 10)
+}
+
+.card .card-text{
+  
+  font-family: Arial, sans-serif;
+  color: rgb(15, 214, 245)
+}
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid rgb(226, 27, 179, 0.8);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(59, 248, 11);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login-prompt{
+  font-size: 2.5em;
+  background-color: rgb(207, 19, 19);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: blueviolet;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.523);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: blueviolet;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color:rgb(15, 214, 245);
+  cursor: pointer;
+}
+
+

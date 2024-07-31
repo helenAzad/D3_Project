@@ -1,0 +1,73 @@
+.table-row-border {
+    border: 1px solid black;
+}
+.chart-container, .info-container {
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.chart-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  align-items: left; /* Centers children vertically */
+  flex-direction: column; /*Stacks children vertically
+/* className="info-container"  Centers text within each child */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+  
+
+.info-container {
+    width: 50%; /* Adjust based on your layout needs */
+    display: flex; /* Enables Flexbox for this container */
+    justify-content:center; /* Centers children horizontally */
+    align-items: left; /* Centers children vertically */
+    flex-direction: column; /* Stacks children vertically */
+/* className="info-container"  Centers text within each child */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+.top-center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.professor-info {
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 5px; /* Adjust the margin bottom to decrease spacing between items */
+  }
+
+.button-spacing {
+  margin-right: 50px;
+  margin-left: 50px; 
+  height: 50px;
+  background-color: rgb(205, 199, 199);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.div-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  gap: 30px; 
+}
+
